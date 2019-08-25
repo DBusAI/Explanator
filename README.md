@@ -19,3 +19,8 @@ and all current transformations in albumentations with params will be printed:
 
 .....
 
+from explanator import AlbuWidget
+AlbuWidget(<any albumentation transform>)
+    
+:TODO - add multiple params, right now only single (type float and int)
+![Example](https://github.com/DBusAI/Explanator/blob/master/AlbuWidget.png)

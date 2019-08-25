@@ -19,7 +19,8 @@ and all current transformations in albumentations with params will be printed:
 
 .....
 
-```from explanator import AlbuWidget
+```
+from explanator import AlbuWidget
 AlbuWidget(<any albumentation transform>)
 ```
     

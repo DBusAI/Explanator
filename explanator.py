@@ -68,6 +68,9 @@ class AlbuWidget:
             if type(k[typ])==int:
                 tmp = widgets.IntSlider(min=1, max=50, step=1, continuous_update=False)
                 self.interact_wds[typ]=tmp
+            if type(k[typ])==tuple:
+                tmp = widgets.IntRangeSlider(value=[50, 70],min=5,max=200,step=1,continuous_update=False)
+                self.interact_wds[typ]=tmp
 
         ui_lists=[]
         for w in self.interact_wds:
